@@ -350,8 +350,6 @@ public class AutoScrollViewPager extends ViewPager {
 
         @Override
         public void onPageSelected(final int position) {
-            Log.e("哈哈",position+"");
-
             final int pos;
             // Fix position
             if (position == 0) {
