@@ -1,18 +1,18 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
 
 android {
-    compileSdkVersion 30
-
-
-
+    namespace 'cn.lyh.spa.autoscrollviewpager'
+    compileSdk 34
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 30
-        versionCode 3
-        versionName "1.0.8"
+        minSdk 14
+        targetSdk 34
 
 
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     buildTypes {
